@@ -8,19 +8,23 @@ const App: Component = () => {
 
   return (
     <>
-      <div class='flex items-center justify-center gap-10'>
+      <div class='flex items-center justify-center gap-5 sm:gap-10'>
         <a href='https://vitejs.dev' target='_blank'>
-          <img class='logo h-24 w-auto' src={viteLogo} alt='Vite logo' />
+          <img
+            class='logo h-20 w-auto sm:h-24'
+            src={viteLogo}
+            alt='Vite logo'
+          />
         </a>
         <a href='https://solidjs.com' target='_blank'>
           <img
-            class='logo solid h-24 w-auto'
+            class='logo solid h-20 w-auto sm:h-24'
             src={solidLogo}
             alt='Solid logo'
           />
         </a>
       </div>
-      <h1 class='text-5xl font-bold'>Vite + Solid</h1>
+      <h1 class='text-4xl font-bold sm:text-5xl'>Vite + Solid</h1>
       <div class='space-y-5'>
         <button
           class='btn btn-primary text-base'
