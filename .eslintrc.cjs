@@ -5,8 +5,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:solid/typescript',
     'standard-with-typescript',
-    'prettier',
-    'plugin:tailwindcss/recommended'
+    'prettier'
   ],
   overrides: [
     {
